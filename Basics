@@ -89,4 +89,61 @@ public class Hello {
 }
 
 
+//
+use M and N, print only the qoutient by using the operator.
+//
 
+
+
+import java.util.Scanner;
+
+public class Hello; {
+    public static void main (String[] args) {
+        Scanner sc= new Scanner(System.in);
+        int M=sc.nextInt();
+        int N=sc.nextInt();
+        System.out.println(M/N);
+      }
+}
+
+
+//
+Fill in the missing lines of code so that the program prints the unit digit of the integer x.
+Hint: The unit digit of a number is nothing but the remainder when the number is divided by 10.
+//
+
+
+
+
+import java.util.Scanner;
+
+public class Hello {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int x=sc.nextInt();
+        System.out.println(x%10);
+    }
+}
+
+
+
+//
+Fill in the missing lines of code so that the program prints 
+the remainder when the sum of four times x and five times y is divided by 6.
+//
+
+
+
+import java.util.Scanner;
+
+public class Hello {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int x=sc.nextInt();
+        int y=sc.nextInt();
+        int res=(4*x + 5*y)%6;
+        System.out.println(res);
+    }
+}

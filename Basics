@@ -149,8 +149,38 @@ public class Hello {
 }
 
 
+//
+Complete the below program by inserting the missing lines of code, 
+so that it prints true if first number is not equal to second number. 
+Else it prints false
+//
 
 
+public class Hello {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int firstNum = sc.nextInt();
+        int secondNum = sc.nextInt();
+boolean Notequal = (firstNum != secondNum);
+System.out.println(Notequal);
+    }//end of main method
+}//end of class
+
+//
+Fill in the missing lines of code to declare and initialize the value of int 
+variable k so that the program prints 5 followed by 7 as the output.
+//
 
 
+public class Hello {
+    public static void main(String[] args) {
+int k=5:
+System.out.println(k);
+System.out.println(++k);
+    }
+}
 
+
+//
+
+//

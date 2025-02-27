@@ -182,5 +182,60 @@ System.out.println(++k);
 
 
 //
+Unary Increment operator is used to increase the value by 1.
+It can be used before or after a variable as exhibited in the
+below program.
+Execute the below program by clicking on Run button below the code.
+Unary Decrement operator is used to decrease the value by 1.
+//
+
+
+public class Hello {
+
+    public static void main(String[] args) {
+
+        int counter = 0;
+        System.out.println(counter++); //Prints 0. The increment happens after printing
+        
+        //Now the counter is 1.
+        
+        System.out.println(++counter); //Prints 2. The increment happens before printing
+
+    }
+}
+
+GIVE OUTPUT AS -2 USING DECREMENT OPERATOR
+
+
+public class Hello {
+
+    public static void main(String[] args) {
+        int counter=-1;
+        System.out.println(--counter);
+
+    }
+}
+
 
 //
+In the below Java program the input will be a positive number representing the age of a person.
+
+Complete the below program by inserting the missing lines of code, so that it prints "senior" if age is greater than or equal to 60. Else it prints "notsenior".
+
+Example Input/Output:
+If the input is "25", the output must be "notsenior"
+If the input is "65", the output must be "senior"
+//
+
+import java.util.Scanner;
+public static Main {
+   public static void Main (String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int age=sc.nextline();
+        if (age >= 60){
+             System.out.println("senior");
+        }else{
+             System.out.println("notsenior");
+        }    
+   }
+}
